@@ -1,0 +1,239 @@
+body{
+    margin: 0px;
+}
+
+.main img{
+    margin-left: 50px;
+    width: 90%;
+}
+.goal{
+    height: 600px;
+    background-color: rgb(84, 97, 110);
+    
+}
+.goal h1{
+    font-family:'Abel', sans-serif;
+    text-align: center;
+    color: white;
+}
+.goal h2{
+    font-family:'Abel', sans-serif;
+    text-align: center;
+    color: silver;
+}
+.goal li{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family:'Abel', sans-serif;
+    
+}
+
+
+.boxes{
+    height: 400px;
+}
+.flip-box {
+    background-color: transparent;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+    position: absolute;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: rgb(178, 196, 214);
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+  .flip-box2 {
+    background-color: transparent;
+    width: 500px;
+    margin-left: 800px;
+    margin-top: 100px;
+    position: absolute;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box2:hover .flip-box-inner2 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front2, .flip-box-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front2 {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back2 {
+    background-color: rgb(106, 125, 145);
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+
+  .trello{
+      height: 1000px;
+      
+  }
+  .trello h1{
+    font-family:'Abel', sans-serif;
+    text-align: center;
+}
+.trello img{
+    width: 100%;
+}
+
+
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #7e7e7e;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 45%;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #c5c5c5;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #808080;
+}
+
+
+  .button-51 a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+  }
+.techno{
+    height: 700px;
+    background-color: #1c627b;
+
+}
+  .techno h1{
+    font-family:'Abel', sans-serif;
+    text-align: center;
+  }
+  .techno img{
+      width: 50%;
+      margin-left: 25%;
+  }
+
+
+
+
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 45%;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+.button-81 a{
+    text-decoration: none;
+    color: slategrey;
+}
+
